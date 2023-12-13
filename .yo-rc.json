@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.2",
+    "libraryName": "studyapp",
+    "libraryId": "10b8fdf3-b6bd-4659-a858-b8714370136c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "studyapp",
+    "solutionShortDescription": "studyapp description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

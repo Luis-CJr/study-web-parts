@@ -1,0 +1,38 @@
+<section id="listEstudos" class="listPadrao bg-light p-4 rounded">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3 class="mb-4">Olá <span id="usuarioLogado">UsuárioAtual</span>, e os estudos?</h3>
+        <button id="btnVerTudo" class="btn btn-primary">Ver tudo</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="modalAtualizar" class="modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Meus estudos:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-hover" id="table">
+          <thead>
+            <tr>
+              <th>Conteúdo</th>
+              <th>Descrição</th>
+              <th>Data Início</th>
+              <th>Data Fim</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody id="modalEstudosContainer">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "studyapp-client-side-solution",
+    "id": "10b8fdf3-b6bd-4659-a858-b8714370136c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "studyapp description"
+      },
+      "longDescription": {
+        "default": "studyapp description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "studyapp Feature",
+        "description": "The feature that activates elements of the studyapp solution.",
+        "id": "eefe3fe5-ae46-4386-8e07-fa7e9fe57798",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/studyapp.sppkg"
+  }
+}
